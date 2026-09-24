@@ -32,6 +32,36 @@ TLS Break and Inspect
 
 ## Integridade e autenticação digital
 
+### Funções hash e mecanismos de verificação de integridade
+atua como um algoritmo deterministico
+Hash-based Message Authentication Code (HMAC)
+pre-image resistence, second pre-image resistence and collision resistence
+MD5 - quebrado em 2000
+SHA-1 quebrado em 2017 (SHAttered)
+SHA-3 and sponge construction
+
+#### Aplicacoes praticas
+- forense digital - gerar hash SHA-256 da imagem e trabalhar com a copia.
+- utilizar ferramendas como OpenSSL para validar hashs de atualizacao de ferramentas
+
+#### Impactos
+- desempenho computacional
+- gerenciamentos  de vulnerabilidades em sistemas legados
+
+### Assinaturas digitais e autenticação
+Assinatura digital
+Infraestrutura de Chaves Publicas (ICP) ou Public Key Infrastructure (KPI)
+Autoridade Certificadora (AC)
+
+#### Desafios na revogação de certificados
+Certificate Revocation Lists (CRLs)
+Online Certificate Status Protocol (OCSP)
+OCSP Stapling
+Automated Certificate Management Environment (ACME)
+
+### Armazenamento seguro de credenciais e proteção de senhas
+
+
 ## Identidade e controle de acesso
 
 ## Infraestrutura e protocolos seguros
