@@ -60,8 +60,34 @@ OCSP Stapling
 Automated Certificate Management Environment (ACME)
 
 ### Armazenamento seguro de credenciais e proteção de senhas
-
+Salting and peppering
+Key Derivation Fuctions (KDF)
+NTDS.dit
 
 ## Identidade e controle de acesso
+Identity and Access Management (IAM)
+Sistema de Prevenção de Intrusão (IPS)
+Joiner, Mover, Leaver (JML)
+
+Federação de Identidade e Single Sign-On (SSO)
+Security Assertion Markup Language (SAML) 2.0
+OAuth 2.0 and OpenID Connect (OIDC)
+
+### Modelos formais de controle de acesso
+Discretionary Access Control (DAC)
+Role-Based Access Control (RBAC)
+Attribute-Based Access Control (ABAC)
+Principle of Least Privilege (PoLP)
+Policy Decision Point (PDP)
+Policy Enforcement Points (PEPs)
+Multi-factor Autenticaiton (MFA)
+One-Time Password (OTP)
+TOTP and Adversary-in-the-Middle (AiTM)
+
+### Gestão de contas privilegiadas e acesso seguro aos recursos organizacionais
+Privileged Access Management (PAM)
+Password Vault
+Zero Trust Network Access (ZTNA)
+
 
 ## Infraestrutura e protocolos seguros
